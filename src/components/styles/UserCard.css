@@ -1,0 +1,79 @@
+.user__card {
+    height: 250px;
+    width: 350px;
+    border-radius: 0.8em;
+    background-color: rgb(245, 241, 241);
+    padding: 10px;
+    transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.user__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 2em #0008;
+}
+
+.user__card__name {
+    margin: 0;
+    text-align: center;
+}
+
+.user__card__hr {
+    margin: 10px 0;
+}
+
+.user__list {
+    list-style: none;
+    padding: 0;
+}
+
+.user__list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__list li span {
+    margin-right: 10px;
+}
+
+.user__card__footer {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+
+}
+
+.btn__delete {
+    background-color: #ff0000;
+    color: white;
+    width: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn__edit {
+    color: fafafa;
+    width: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.user__card__label {
+    padding-left: 1em;
+    color: #999;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.user__card__value {
+    padding-left: 1em;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.user__card__item {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
